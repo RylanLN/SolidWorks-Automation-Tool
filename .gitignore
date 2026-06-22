@@ -1,0 +1,17 @@
+# Python files
+__pycache__/
+*.pyc
+
+# SolidWorks files
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.STEP
+*.PDF
+
+# Generated output folders
+SW_Test_Parts/
+SW_Test_Drawings/
+
+# VS Code settings
+.vscode/
