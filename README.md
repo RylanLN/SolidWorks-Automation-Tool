@@ -6,6 +6,20 @@ A Python-based automation tool designed to streamline repetitive SolidWorks docu
 
 The goal of this project was to reduce manual CAD documentation steps by integrating Python automation with the SolidWorks API.
 
+## How to Run
+
+1. Clone the repository:
+   git clone https://github.com/RylanLN/SolidWorks-Automation-Tool.git
+
+2. Open the folder in VS Code
+
+3. Install dependencies:
+   pip install pywin32
+
+4. Run one of the entry scripts:
+   - gui_main.py (recommended)
+   - terminal_main.py
+
 ## Features
 
 - Batch processes SolidWorks part files from a selected folder
@@ -15,6 +29,15 @@ The goal of this project was to reduce manual CAD documentation steps by integra
 - Creates organized output folders for generated files
 - Provides a graphical user interface for user-controlled automation
 - Provides processing summaries and error reporting
+
+## Project Structure
+
+- gui_main.py → User interface for running automation
+- terminal_main.py → Command-line version of automation
+- drawings.py → Handles SolidWorks drawing generation
+- basic_functions.py → Core SolidWorks API utilities
+- part_properties.py → Updates material and metadata
+- screenshots/ → Output images for documentation
 
 ## Technologies Used
 
@@ -48,6 +71,16 @@ The goal of this project was to reduce manual CAD documentation steps by integra
 
 ![Output](screenshots/output.png)
 
+## Skills Demonstrated
+
+- Python automation and scripting
+- SolidWorks API (COM automation)
+- CAD workflow automation
+- File system automation (batch processing)
+- GUI development using Tkinter
+- Error handling for external software integration
+- Engineering documentation generation
+
 ## Future Improvements
 
 Potential improvements include:
@@ -55,3 +88,6 @@ Potential improvements include:
 - Support for assemblies
 - Enhanced user interface features
 
+## Notes
+
+This project evolved through iterative development, including debugging COM interface issues, refining batch processing logic, and transitioning from manual file handling to fully automated workflows.
